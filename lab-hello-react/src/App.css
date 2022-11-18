@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  //text-align: center;
 }
 
 .App-logo {
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.front {
+  margin: 0 20px 40px;
+  background-color: #282c34;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 40px 40px;
+}
+
+.logos img:first-child {
+  width: 4%;
+}
+
+.logos img:last-child {
+  height: 4%;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px 530px 20px 50px;
+}
+
+h1 {
+  font-size: 3.2em;
+  margin: 0;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding: 0 60px;
+}
+
+.row img {
+  width: 50%;
+}
+
+.row {
+  padding: 30px;
 }
